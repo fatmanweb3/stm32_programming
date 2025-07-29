@@ -1,0 +1,16 @@
+19:49:18 **** Build of configuration Debug for project internal_led_blink ****
+make -j4 all 
+arm-none-eabi-gcc -o "internal_led_blink.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\internal_led_blink\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="internal_led_blink.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: internal_led_blink.elf
+ 
+arm-none-eabi-size  internal_led_blink.elf 
+arm-none-eabi-objdump -h -S internal_led_blink.elf  > "internal_led_blink.list"
+   text	   data	    bss	    dec	    hex	filename
+   8872	     12	   1644	  10528	   2920	internal_led_blink.elf
+Finished building: default.size.stdout
+ 
+Finished building: internal_led_blink.list
+ 
+
+19:49:19 Build Finished. 0 errors, 0 warnings. (took 1s.126ms)
+

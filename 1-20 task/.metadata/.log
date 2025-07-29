@@ -1,0 +1,36 @@
+!SESSION 2025-07-29 19:55:44.544 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-29 19:55:50.097
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-29 19:55:50.100
+!MESSAGE Log4j2 initialized with config file C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-29 19:55:58.989
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-29 20:03:24.346
+!MESSAGE Indexed 'GPIO_ADC' (20 sources, 82 headers) in 4.63 sec: 5,042 declarations; 26,639 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0063%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-07-29 22:33:52.604
+!MESSAGE Indexed 'GPIO_INTERRUPTS' (20 sources, 82 headers) in 2.13 sec: 5,042 declarations; 26,639 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0063%)
+!SESSION 2025-07-29 23:17:28.589 -----------------------------------------------
+eclipse.buildId=Version 1.19.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-07-29 23:21:50.816
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-07-29 23:21:50.817
+!MESSAGE Log4j2 initialized with config file C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-07-29 23:22:02.676
+!MESSAGE Started RMI Server, listening on port 41337

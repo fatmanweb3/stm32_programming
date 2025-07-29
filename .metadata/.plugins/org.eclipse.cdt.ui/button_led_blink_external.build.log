@@ -1,0 +1,16 @@
+19:49:17 **** Build of configuration Debug for project button_led_blink_external ****
+make -j4 all 
+arm-none-eabi-gcc -o "button_led_blink_external.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\button_led_blink_external\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="button_led_blink_external.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: button_led_blink_external.elf
+ 
+arm-none-eabi-size  button_led_blink_external.elf 
+arm-none-eabi-objdump -h -S button_led_blink_external.elf  > "button_led_blink_external.list"
+   text	   data	    bss	    dec	    hex	filename
+   8952	     12	   1644	  10608	   2970	button_led_blink_external.elf
+Finished building: default.size.stdout
+ 
+Finished building: button_led_blink_external.list
+ 
+
+19:49:18 Build Finished. 0 errors, 0 warnings. (took 1s.50ms)
+
