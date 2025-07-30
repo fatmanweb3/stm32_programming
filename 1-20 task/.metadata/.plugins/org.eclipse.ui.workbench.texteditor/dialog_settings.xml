@@ -3,6 +3,7 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="DHT11_Da"/>
 		<item value="_Callback"/>
 		<item value="Callback"/>
 		<item value="HAL_GPIO_EXTI_Callback"/>

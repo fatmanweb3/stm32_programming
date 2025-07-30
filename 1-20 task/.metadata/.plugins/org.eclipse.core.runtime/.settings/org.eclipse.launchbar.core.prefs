@@ -1,10 +1,12 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_INTERRUPTS Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_INTERRUPTS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blinky Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NUCLEO_F446RE_Serial_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_DHT11 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C_LCD_16x2 Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_INTERRUPTS\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_TIMERS\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:button_led_blink_external\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:button_led_blink_external\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:internal_led_blink\ Debug/activeLaunchMode=run

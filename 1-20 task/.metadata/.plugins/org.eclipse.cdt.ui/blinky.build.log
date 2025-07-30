@@ -1,0 +1,10 @@
+23:20:09 **** Incremental Build of configuration Debug for project blinky ****
+make -j4 all 
+arm-none-eabi-size  blinky.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8612	     12	   1644	  10268	   281c	blinky.elf
+Finished building: default.size.stdout
+ 
+
+23:20:10 Build Finished. 0 errors, 0 warnings. (took 551ms)
+
