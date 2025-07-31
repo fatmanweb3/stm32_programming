@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_INTERRUPTS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blinky Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NUCLEO_F446RE_Serial_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_DHT11 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C_LCD_16x2 Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blinky Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:UART_DHT11 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C_LCD_16x2 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NUCLEO_F446RE_Serial_Test Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_TIMER_ULTRASONIC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_INTERRUPTS Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C_MPU6050 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ANALOG_GPIO_PWM Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:GPIO_ADC\ Debug/activeLaunchTarget=null\:---

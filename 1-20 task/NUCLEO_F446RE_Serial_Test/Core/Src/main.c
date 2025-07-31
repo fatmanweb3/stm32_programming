@@ -103,6 +103,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  printf("Hello from my NUCLEO-F446RE!\r\n"); // Your message to the world!
+	  printf("Test word 1!\r\n"); // Your message to the world!
 	  HAL_Delay(1000); // Wait for 1 second (1000 milliseconds)
 
   }

@@ -1,0 +1,10 @@
+23:28:23 **** Incremental Build of configuration Debug for project GPIO_TIMER_ULTRASONIC ****
+make -j4 all 
+arm-none-eabi-size  GPIO_TIMER_ULTRASONIC.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30932	    468	   2076	  33476	   82c4	GPIO_TIMER_ULTRASONIC.elf
+Finished building: default.size.stdout
+ 
+
+23:28:23 Build Finished. 0 errors, 0 warnings. (took 483ms)
+
