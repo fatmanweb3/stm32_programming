@@ -1,0 +1,24 @@
+18:59:07 **** Incremental Build of configuration Debug for project SPI_CAN_DOUBLE_MCP2515 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:262:45: warning: format '%X' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  262 |         sprintf(buf, "Received CAN ID: 0x%03X, DLC: %d, Data: \r\n", rx_msg.id, rx_msg.dlc);
+      |                                          ~~~^                        ~~~~~~~~~
+      |                                             |                              |
+      |                                             unsigned int                   uint32_t {aka long unsigned int}
+      |                                          %03lX
+arm-none-eabi-gcc -o "SPI_CAN_DOUBLE_MCP2515.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task\SPI_CAN_DOUBLE_MCP2515\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SPI_CAN_DOUBLE_MCP2515.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: SPI_CAN_DOUBLE_MCP2515.elf
+ 
+arm-none-eabi-size  SPI_CAN_DOUBLE_MCP2515.elf 
+arm-none-eabi-objdump -h -S SPI_CAN_DOUBLE_MCP2515.elf  > "SPI_CAN_DOUBLE_MCP2515.list"
+   text	   data	    bss	    dec	    hex	filename
+  16704	    116	   2148	  18968	   4a18	SPI_CAN_DOUBLE_MCP2515.elf
+Finished building: default.size.stdout
+ 
+Finished building: SPI_CAN_DOUBLE_MCP2515.list
+ 
+
+18:59:08 Build Finished. 0 errors, 1 warnings. (took 1s.145ms)
+
