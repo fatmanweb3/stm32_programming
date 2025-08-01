@@ -1,0 +1,16 @@
+00:41:29 **** Incremental Build of configuration Debug for project INTERNAL_PWM_LED_CONTROL ****
+make -j4 all 
+arm-none-eabi-gcc -o "INTERNAL_PWM_LED_CONTROL.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\sudharsan\Desktop\career\embedded\embedded C_C++\stm32 programming\1-20 task\INTERNAL_PWM_LED_CONTROL\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="INTERNAL_PWM_LED_CONTROL.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: INTERNAL_PWM_LED_CONTROL.elf
+ 
+arm-none-eabi-size  INTERNAL_PWM_LED_CONTROL.elf 
+arm-none-eabi-objdump -h -S INTERNAL_PWM_LED_CONTROL.elf  > "INTERNAL_PWM_LED_CONTROL.list"
+   text	   data	    bss	    dec	    hex	filename
+  12156	     12	   1716	  13884	   363c	INTERNAL_PWM_LED_CONTROL.elf
+Finished building: default.size.stdout
+ 
+Finished building: INTERNAL_PWM_LED_CONTROL.list
+ 
+
+00:41:29 Build Finished. 0 errors, 0 warnings. (took 724ms)
+

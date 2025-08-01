@@ -1,4 +1,4 @@
-23:28:22 **** Incremental Build of configuration Debug for project GPIO_INTERRUPTS ****
+11:00:09 **** Build of configuration Debug for project GPIO_INTERRUPTS ****
 make -j4 all 
 arm-none-eabi-size  GPIO_INTERRUPTS.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  GPIO_INTERRUPTS.elf
 Finished building: default.size.stdout
  
 
-23:28:23 Build Finished. 0 errors, 0 warnings. (took 366ms)
+11:00:09 Build Finished. 0 errors, 0 warnings. (took 420ms)
 

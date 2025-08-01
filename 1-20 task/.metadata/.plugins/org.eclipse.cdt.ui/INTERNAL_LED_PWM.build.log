@@ -1,0 +1,10 @@
+11:00:11 **** Build of configuration Debug for project INTERNAL_LED_PWM ****
+make -j4 all 
+arm-none-eabi-size  INTERNAL_LED_PWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13196	     12	   1716	  14924	   3a4c	INTERNAL_LED_PWM.elf
+Finished building: default.size.stdout
+ 
+
+11:00:11 Build Finished. 0 errors, 0 warnings. (took 379ms)
+
